@@ -27,7 +27,7 @@ body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark a {
     color: black;
 }
 body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark img {
-    max-height: 36px;
+    max-height: 28px;
 }
 body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark button span {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -252,6 +252,7 @@ body main div.EntradaBlog ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 0px;
 }
 
 body main div.EntradaBlog ul li a {
