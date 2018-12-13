@@ -395,6 +395,8 @@ body footer div.IconosSociales i {
         margin: 0 auto;
     }
 
+    
+
     body main div.carousel.slide div.carousel-inner div div h5  {
         font-size: 42px;
 
@@ -499,5 +501,24 @@ body footer div.IconosSociales i {
 @media(max-width: 340px){
     body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark img {
         max-height: 20px;
+    }
+}
+
+@media(min-width: 448px){
+    body main div.Contenido section.Cformativos div div{
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+}
+@media(min-width: 800px){
+    body main div.Contenido section.Cformativos div div{ 
+        padding-left: 20%;
+    padding-right: 20%;
+    }
+}
+@media(min-width: 1024px){
+    body main div.Contenido section.Cformativos div div {
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }

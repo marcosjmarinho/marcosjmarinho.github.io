@@ -237,7 +237,7 @@ body main div.Principal div.MiniMain div.FrasesFamosas p.Autor {
   }
 
   #menu-toggle {
-    top: 0;
+    top: 60;
     background-color: white;
     border-color: black;
     right: 0;
