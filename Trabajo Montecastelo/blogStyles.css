@@ -173,9 +173,6 @@ background-color: rgba(0,0,0,0.3) !important;
     padding: 5px 10px;
     margin-bottom: 15px !important;
 }
-.active{
-    background-color: rgba(0,0,0,0.3);
-}
 .user_img{
     height: 70px;
     width: 70px;
@@ -307,6 +304,31 @@ div.treeview ul:first-child:before {
 
 /*  */
 
+/* BOOTSTRAP paginacion */
+.pagination {
+    padding-top: 5%;
+    justify-content: center;
+}
+.pagination>li>a {
+     border-radius: 50% !important;
+     margin: 0 5px;
+     background-color: white;
+    }
+    
+   
+/*  */
+/* CSS Mas Posts */
+#PaginaPost1 {
+    display: none;
+}
+#PaginaPost2 {
+display: none;
+}
+#PaginaPost3 {
+    display: none;
+}
+/*  */
+
 @media(max-width:1270px){
     .AmigosChat {
         display: none;
@@ -337,4 +359,10 @@ div.treeview ul:first-child:before {
     .container-fluid.h-100 {
     padding-left: 0%;
 }
+}
+@media(max-width: 1900px){
+    .pagination {
+       
+    }
+
 }

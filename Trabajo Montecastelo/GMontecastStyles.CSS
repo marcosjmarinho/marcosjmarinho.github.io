@@ -1,0 +1,96 @@
+header 
+{
+    background-color:#444444;
+}
+
+#demo h1 
+{
+    text-align:center;
+    color:#888;
+    padding-bottom:5px;
+}
+
+#demo p 
+{
+    text-align:center;
+    color:#777;
+    padding-bottom:15px;
+    font-size:21px;
+    letter-spacing:1px;
+}
+
+#demo .row 
+{
+    padding-top:20vh;
+    padding-bottom:40px;
+}
+
+#demo img
+{
+    box-shadow:1px 1px 5px #000;
+    width: 90%; 
+    height: 90%;
+}
+
+#demo img:hover
+{
+    transition:all 0.6s; 
+    -ms-transform: scale(2, 2); 
+    -webkit-transform: scale(2, 2); 
+    transform: scale(2, 2); 
+    overflow:visible;
+    z-index:1 !important; 
+}
+
+
+#demo .item-1:hover
+{
+    -ms-transform: translate(100px); 
+    -webkit-transform: translate(100px); 
+    transform: translate(100px); 
+    z-index:2; 
+}
+
+#demo .item-2:hover
+{
+    z-index:2; 
+}
+
+#demo .item-3:hover
+{
+    -ms-transform: translate(-100);
+    -webkit-transform: translate(-100px); 
+    transform: translate(-100px); 
+    z-index:2; 
+}
+
+/* BOOTSTRAP button */
+.orange-circle-button {
+	box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
+	border: .5em solid #E84D0E;
+	font-size: 1em;
+	line-height: 1.1em;
+	color: #ffffff;
+	background-color: #e84d0e;
+	margin: auto;
+	border-radius: 50%;
+	height: 7em;
+	width: 7em;
+	position: relative;
+}
+.orange-circle-button:hover {
+	color:#ffffff;
+    background-color: #e84d0e;
+	text-decoration: none;
+	border-color: #ff7536;
+	
+}
+.orange-circle-button:visited {
+	color:#ffffff;
+    background-color: #e84d0e;
+	text-decoration: none;
+	
+}
+.orange-circle-link-greater-than {
+    font-size: 1em;
+}

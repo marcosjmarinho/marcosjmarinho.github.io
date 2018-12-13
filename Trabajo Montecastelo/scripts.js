@@ -179,3 +179,17 @@ $(window).on('load', function () {
 		tree.treeview();
 	})
 })
+
+// Script Para cambiar pagina blog
+function changeP1() {
+    document.getElementById('Principio').innerHTML = document.getElementById('PaginaPost1').innerHTML;
+}
+function changeP2() {
+    document.getElementById('Principio').innerHTML = document.getElementById('PaginaPost2').innerHTML;
+}
+function changeP3() {
+    document.getElementById('Principio').innerHTML = document.getElementById('PaginaPost3').innerHTML;
+}
+
+//Script Galeria
+

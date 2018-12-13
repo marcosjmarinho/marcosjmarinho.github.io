@@ -61,6 +61,9 @@
               <div class="col-sm-3 sidenav">
                 <h4>Blog Montecastelo</h4>
                 <div class="input-group">
+               <a href="blog.html"> <button type="button" class="btn btn-default" ><i class="fab fa-blogger"></i></button></a>
+    			      <a href="GaleriaMontecast.html"> <button type="button" class="btn btn-default"><i class="fas fa-images"></i></button></a>
+    		      	<button type="button" class="btn btn-default"><i class="fa fa-envelope"></i></button>
                   <input type="text" class="form-control" placeholder="Search Blog..">
                   <span class="input-group-btn">
                     <button class="btn btn-default" type="button">
@@ -224,8 +227,29 @@
                     </div>
                   </div>
                 </div>
+                <div class="Paginacion">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">«</span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item "><a class="page-link" href="#" onclick="changeP1()">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#" onclick="changeP2()">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#" onclick="changeP3()">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">»</span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
-              <div class="col-sm-9">
+              <div class="col-sm-9" id="Principio">
                 <h4><small>POSTS RECIENTES</small></h4>
                 <hr>
                 <h2>Porque los alumnos no leen los apuntes de Ramon</h2>
@@ -296,6 +320,146 @@
           </footer>
     </main>
 
+    <div class="col-sm-9" id="PaginaPost1">
+        <h4><small>POSTS RECIENTES</small></h4>
+        <hr>
+        <h2>Porque los alumnos no leen los apuntes de Ramon</h2>
+        <h5><span class="glyphicon glyphicon-time"></span> Posteado por Ramon Rios, Dec 10, 2018.</h5>
+        <h5><span class="label label-danger">Posicionamiento</span> <span class="label label-primary">WEB</span></h5><br>
+        <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br><br>
+        
+        <h4><small>POSTS RECIENTES</small></h4>
+        <hr>
+        <h2>La dificultad de los examenes de SER</h2>
+        <h5><span class="glyphicon glyphicon-time"></span> Posteado por Alumnos GMI, Dec 10, 2018.</h5>
+        <h5><span class="label label-success">Servicios en red</span></h5><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <hr>
+  
+        <h4>Deja tu comentario:</h4>
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+        <br><br>
+        
+        <p><span class="badge">2</span> Comentarios:</p><br>
+        
+        <div class="row">
+          <div class="col-sm-2 text-center">
+            <img src="Quique.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+          </div>
+          <div class="col-sm-10">
+            <h4>QuiquePM <small>Dec 10, 2018, 9:12 PM</small></h4>
+              <p>Mis examenes son muy faciles y subo mis apuntes EN TIEMPO Y FORMA!</p>
+            <br>
+          </div>
+          <div class="col-sm-2 text-center">
+            <img src="Ramon.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+          </div>
+          <div class="col-sm-10">
+            <h4>RamonRS <small>Dec 10, 2018, 8:25 PM</small></h4>
+            <p>Acabo de subir el ultimo post sobre por que nadie lee mis magnificos apuntes.</p>
+            <br>
+            <p><span class="badge">1</span> Comentario:</p><br>
+            <div class="row">
+              <div class="col-sm-2 text-center">
+                <img src="Roberto.PNG" class="img-circle" height="65" width="65" alt="Avatar">
+              </div>
+              <div class="col-xs-10">
+                <h4>RobertoP <small>Dec 10, 2018, 8:28 PM</small></h4>
+                <p>Yo si leo tus apuntes ramon!</p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-sm-9" id="PaginaPost2">
+        <h4><small>POSTS RECIENTES</small></h4>
+        <hr>
+        <h2>Alumno de montecastelo es humillado en Stack Overflow</h2>
+        <h5><span class="glyphicon glyphicon-time"></span> Posteado por Ramon Rios, Nov 18, 2018.</h5>
+        <h5><span class="label label-danger">Posicionamiento</span> <span class="label label-primary">WEB</span></h5><br>
+        <p>Alumno es humillado y masacrado en Stack Overflow despues de colgar su codigo para hacer una consulta sobre un error, en el siguiente link podemos ver la situacion:</p>
+        <a href="https://es.stackoverflow.com/questions/164823/consulta-a-base-de-datos-que-no-devuelve-nada">Ver noticia</a>
+        <br><br>
+        
+        <h4><small>POSTS RECIENTES</small></h4>
+        <hr>
+        <h2>Se acerca el final del curso ¿Quien obtendra el titulo?</h2>
+        <h5><span class="glyphicon glyphicon-time"></span> Posteado por QuiquePM, Nov 5, 2018.</h5>
+        <h5><span class="label label-success">Servicios en red</span></h5><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <hr>
+  
+        <h4>Deja tu comentario:</h4>
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+        <br><br>
+        
+        <p><span class="badge">2</span> Comentarios:</p><br>
+        
+        <div class="row">
+          <div class="col-sm-2 text-center">
+            <img src="Otero.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+          </div>
+          <div class="col-sm-10">
+            <h4>Braisote <small>Nov 18, 2018, 9:12 PM</small></h4>
+              <p>Sigo teniendo pesadillas por culpa de Stack Overflow</p>
+            <br>
+             <p><span class="badge">1</span> Comentario:</p><br>
+             <div class="row">
+              <div class="col-sm-2 text-center">
+                <img src="Ramon.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+              </div>
+              <div class="col-xs-10">
+                <h4>Ramon Rios <small>Dec 10, 2018, 8:28 PM</small></h4>
+                <p>Tranquilo brais lo superaras! ;)</p>
+                <br>
+              </div>
+            </div>
+          </div>
+           </div>
+      </div>
+
+      <div class="col-sm-9" id="PaginaPost3">
+          <h4><small>POSTS RECIENTES</small></h4>
+          <hr>
+          <h2>¿Es realmente CSS una mierda o los alumnos no atienden?</h2>
+          <h5><span class="glyphicon glyphicon-time"></span> Posteado por Ramon Rios, Dec 10, 2018.</h5>
+          <h5><span class="label label-danger">CSS</span> <span class="label label-primary">WEB</span></h5><br>
+          <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <br><br>
+          
+          <h4><small>POSTS RECIENTES</small></h4>
+          <hr>
+          <h2>Fran Rocha y la desaparicion de los rotuladores de pizarra</h2>
+          <h5><span class="glyphicon glyphicon-time"></span> Posteado por Alumnos GMI, Dec 10, 2018.</h5>
+          <h5><span class="label label-success">Misterios</span></h5><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <hr>
+    
+          <h4>Deja tu comentario:</h4>
+          <form role="form">
+            <div class="form-group">
+              <textarea class="form-control" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+          </form>
+          <br><br>
+            </div>
+          
+        
 
 </body>
+
 </html>
