@@ -95,6 +95,7 @@ body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div ul li a {
 .chat{
     margin-top: auto;
     margin-bottom: auto;
+    text-align: -webkit-center;
 }
 .card{
     height: 500px;
@@ -324,4 +325,16 @@ div.treeview ul:first-child:before {
 }
 @media(max-width: 1000px){
     .nav-item:hover::after{width:10%;}
+}
+
+@media(max-width: 340px){
+    body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark img {
+        max-height: 20px;
+    }
+}
+
+@media (max-width: 570px){
+    .container-fluid.h-100 {
+    padding-left: 0%;
+}
 }

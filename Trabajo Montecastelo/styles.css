@@ -491,15 +491,13 @@ body footer div.IconosSociales i {
         padding-top: 2%;
     
     }
-
-
-
-
-   
-
-
-
 }
 @media(max-width: 1000px){
     .nav-item:hover::after{width:10%;}
+}
+
+@media(max-width: 340px){
+    body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark img {
+        max-height: 20px;
+    }
 }
