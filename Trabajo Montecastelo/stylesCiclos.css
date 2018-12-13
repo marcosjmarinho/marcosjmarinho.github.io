@@ -1,0 +1,321 @@
+header img {
+    display: block;
+    margin: 0 auto;
+}
+div.separador {
+    padding-top: 3%;
+}
+.nav-item::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: black;
+    transition: 0.2s
+}
+.nav-item:hover::after{width:100%;}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color:white!important;
+    border-bottom: 1px solid black;
+
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+        
+        -webkit-box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.5);
+}
+ body header nav div.collapse.navbar-collapse {
+        flex-grow: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    body header nav div.collapse.navbar-collapse ul li {
+        font-size: 18px;
+        font-weight: bold;
+    }
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark a {
+    color: black;
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark img {
+    max-height: 36px;
+    margin-left: 0px;
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark button span {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div {
+    flex-grow: 0;
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div ul li a {
+    color: black;
+}
+
+/* CSS del Main */
+
+body main div.MiniCabecera nav {
+    background-color: white!important;
+    justify-content: space-around;
+}
+
+body main div.MiniCabecera nav form button{
+    border: 1px solid black;
+    color: black;
+}
+body main div.MiniCabecera nav form button:hover{
+    background-color: brown;
+}
+
+
+body main div.Electricidad,div.Informatica,div.Entrenamiento,div.DiseñoWeb, div.Multiplataforma {
+    display: none;
+}
+ /* Plantilla CSS */
+body main div.Principal img {
+    width: 100%;
+    height: 200px;
+
+}
+body main div.Principal p {
+    padding-top: 5%;
+}
+
+body main div.Principal div.MiniMain {
+     padding-left: 5%;
+    padding-right: 5%;
+}
+body main div.Principal div.MiniMain p {
+    font-family: 'Arvo', cursive;
+    
+}
+
+body main div.Principal div.MiniMain ul li {
+    font-family: 'Arvo', cursive;
+    
+}
+body main div.Principal div.MiniMain h2 {
+    font-size: calc(1em + 1.48832 * ((100vw - 20em)/ 40));
+    font-family: 'Black Han Sans', sans-serif;
+    padding-top: 5%;
+}
+
+body main div.Principal div.MiniMain div.FrasesFamosas{
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+    box-shadow: 1px 1px 1px 1px lightgray;
+    border-radius: 20%;
+}
+body main div.Principal div.MiniMain div.FrasesFamosas p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Arvo', cursive;
+
+}
+body main div.Principal div.MiniMain div.FrasesFamosas p.Autor {
+    text-align: right;
+
+}
+
+/* CSS para nav BOOTSTRAP */
+.titulonav {
+    color: white;
+}
+#sidebar-wrapper {
+    bottom: 0px;
+    height: 40%;
+    margin-right: -250px;
+    right: 0;
+    width: 250px;
+    background: rgb(0,0,0);
+    position: fixed;
+    
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.5s ease-in 0s;
+    -webkit-transition: all 0.5s ease-in 0s;
+    -moz-transition: all 0.5s ease-in 0s;
+    -ms-transition: all 0.5s ease-in 0s;
+    -o-transition: all 0.5s ease-in 0s;
+  }
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-nav li {
+    line-height: 50px;
+    text-indent: 20px;
+  }
+
+  .sidebar-nav li a {
+    color: #999999;
+    display: block;
+    text-decoration: none;
+  }
+  .sidebar-nav li::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 16%;
+    width: 3px;
+    background-color: #1c1c1c;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+  }
+ 
+  .sidebar-nav li:first-child a {
+    color: #fff;
+    background-color: #1a1a1a;
+}
+.sidebar-nav li:nth-child(2):before {
+    background-color: #ec1b5a;   
+}
+.sidebar-nav li:nth-child(3):before {
+    background-color: #79aefe;   
+}
+.sidebar-nav li:nth-child(4):before {
+    background-color: #314190;   
+}
+.sidebar-nav li:nth-child(5):before {
+    background-color: #279636;   
+}
+.sidebar-nav li:nth-child(6):before {
+    background-color: #7d5d81;   
+}
+.sidebar-nav li:nth-child(7):before {
+    background-color: #ead24c;   
+}
+.sidebar-nav li:nth-child(8):before {
+    background-color: #2d2366;   
+}
+.sidebar-nav li:nth-child(9):before {
+    background-color: #35acdf;   
+}
+
+.sidebar-nav li:hover:before,
+.sidebar-nav li.open:hover:before {
+    width: 100%;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+
+  .sidebar-nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+
+    
+  }
+
+  .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+
+  .sidebar-nav > .sidebar-brand {
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+  }
+
+  .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+
+  #menu-toggle {
+    top: 0;
+    background-color: white;
+    border-color: black;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+  }
+
+  #sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+  }
+
+  .toggle {
+    margin: 5px 5px 0 0;
+  }
+/*  */
+
+body footer {
+    padding-top: 5%;
+    background-color: rgb(252, 249, 249);
+    text-align: center;
+    
+}
+
+body footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body footer div.IconosSociales i {
+    padding-top: 5%;
+    font-size: 36px;
+}
+
+@media(min-width: 720px){
+
+    body main div.Principal img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    body footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    body main div.Principal div.MiniMain p {
+        font-size: 16px;
+    }
+    body main div.Principal div.MiniMain iframe {
+        width: 50%;
+        height: 300px;
+        
+    }
+    body main div.Principal div.MiniMain ul li{
+        font-size: 16px;
+    }
+    body main div.Principal div.MiniMain div.FrasesFamosas p {
+        font-size: 16px;
+    }
+
+    body main div.Principal div.MiniMain div.FrasesFamosas {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1024px){
+    body main div.Principal div.MiniMain{
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+}
+@media(max-width: 1000px){
+    .nav-item:hover::after{width:10%;}
+}

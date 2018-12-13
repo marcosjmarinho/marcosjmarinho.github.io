@@ -1,0 +1,327 @@
+div.separador {
+    padding-top: 3%;
+}
+.nav-item::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: black;
+    transition: 0.2s
+}
+.nav-item:hover::after{width:100%;}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color:white!important;
+    border-bottom: 1px solid black;
+
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+        
+        -webkit-box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.5);
+}
+ body header nav div.collapse.navbar-collapse {
+        flex-grow: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    body header nav div.collapse.navbar-collapse ul li {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark a {
+    color: black;
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark img {
+    max-height: 36px;
+    margin: 0 auto;
+    margin-left: 0px;
+    
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark button span {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div {
+    flex-grow: 0;
+}
+body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div ul li a {
+    color: black;
+}
+
+/* Codigo CSS Bootstrap Blog */
+.row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+ .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+
+/*  */
+
+/* Codigo CSS Amigos */
+
+
+    div.img_cont img {
+        height: 70px;
+        border-radius: 80%;
+    }
+
+    .container-fluid.h-100{
+        padding-left: 0px;
+    }
+
+.chat{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.card{
+    height: 500px;
+    border-radius: 15px !important;
+    background-color: rgba(0,0,0,0.4) !important;
+    width: 300px;
+}
+.contacts_body{
+    padding:  0.75rem 0 !important;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+.msg_card_body{
+    overflow-y: auto;
+}
+.card-header{
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+}
+.card-footer{
+border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+}
+.container{
+    align-content: center;
+}
+.search{
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+}
+.search:focus{
+     box-shadow:none !important;
+   outline:0px !important;
+}
+.type_msg{
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+    height: 60px !important;
+    overflow-y: auto;
+}
+    .type_msg:focus{
+     box-shadow:none !important;
+   outline:0px !important;
+}
+.attach_btn{
+border-radius: 15px 0 0 15px !important;
+background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.send_btn{
+border-radius: 0 15px 15px 0 !important;
+background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.search_btn{
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.contacts{
+    list-style: none;
+    padding: 0;
+}
+.contacts li{
+    width: 100% !important;
+    padding: 5px 10px;
+    margin-bottom: 15px !important;
+}
+.active{
+    background-color: rgba(0,0,0,0.3);
+}
+.user_img{
+    height: 70px;
+    width: 70px;
+    border:1.5px solid #f5f6fa;
+
+}
+.user_img_msg{
+    height: 40px;
+    width: 40px;
+    border:1.5px solid #f5f6fa;
+
+}
+.img_cont{
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
+.img_cont_msg{
+    height: 40px;
+    width: 40px;
+}
+.online_icon{
+position: absolute;
+height: 15px;
+width:15px;
+background-color: #4cd137;
+border-radius: 50%;
+bottom: 0.2em;
+right: 0.4em;
+border:1.5px solid white;
+}
+.offline{
+background-color: #c23616 !important;
+}
+.user_info{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 15px;
+}
+.user_info span{
+font-size: 20px;
+color: white;
+}
+.user_info p{
+font-size: 10px;
+color: rgba(255,255,255,0.6);
+}
+
+/*  */
+
+/* Codigo CSS BOOTSTRAP Recursos TREEVIEW */
+div.panel:first-child {
+    margin-top:20px;
+}
+
+div.treeview {
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 256px;
+    overflow:auto;
+	padding: 4px;
+	margin-bottom: 20px;
+	color: #369;
+	border: solid 1px;
+	border-radius: 4px;
+}
+div.treeview ul:first-child:before {
+    display: none;
+}
+.treeview, .treeview ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+	color: #369;
+}
+.treeview ul {
+    margin-left:1em;
+    position:relative
+}
+.treeview ul ul {
+    margin-left:.5em
+}
+.treeview ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    left:0;
+    border-left:1px solid;
+    bottom:15px;
+}
+.treeview li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    font-weight:700;
+    position:relative
+}
+.treeview ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.tree-indicator {
+    margin-right:5px;
+    cursor:pointer;
+}
+.treeview li a {
+    text-decoration: none;
+    color:inherit;
+    cursor:pointer;
+}
+.treeview li button, .treeview li button:active, .treeview li button:focus {
+    text-decoration: none;
+    color:inherit;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
+}
+
+/*  */
+
+@media(max-width:1270px){
+    .AmigosChat {
+        display: none;
+    }
+
+}
+
+@media(max-width:570px){
+    .AmigosChat {
+        display: block;
+        text-align: center;
+    }
+    .container-fluid.h-100 {
+        padding-left: 12%;
+    }
+}
+@media(max-width: 1000px){
+    .nav-item:hover::after{width:10%;}
+}
